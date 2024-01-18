@@ -1,12 +1,9 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 
-export default function Home() {
+const SetupPage = ()=>{
   return (
-    
-      <div>
-        <Button>Click me</Button>
-      </div>
-    
+    <div className='p-10'>This page is protected</div>
   )
 }
+export default SetupPage;
